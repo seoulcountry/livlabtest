@@ -1,0 +1,23 @@
+
+<div class="top_menu_all">
+<div class="top_menu">
+
+
+<div id="category" module="Layout_category">
+<!--@css(/css/module/layout/category.css)-->
+<!--@js(/js/module/layout/category.js)-->
+    <div class="position">
+        <ul>
+            <li><a href="/product/list.html{$param}">{$name_or_img_tag}</a></li>
+			<li><a href="/product/list.html{$param}"><b style="color:#346c8c">{$name_or_img_tag}</b></a></li>
+			<li><a href="/product/list.html{$param}">{$name_or_img_tag}</a></li>
+            <li><a href="/product/list.html?cate_no=49">신상품</a></li>
+            <li><a href="/front/php/b/board_list.php?board_no=4">리뷰</a></li>
+            <li style="margin-right:0px;"><a href="/board/product/list.html?board_no=6">상품문의</a></li>
+        </ul>
+    </div>
+	</div>
+
+
+</div>
+</div>
